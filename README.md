@@ -171,6 +171,8 @@ conda activate ./esmfold
 python scripts/fold.py -i LokiAndNola.fasta -o output
 ```
 
+Note: This method uses `ESMFold` model (`esm.pretrained.esmfold_v1()`).
+
 After pip install, you can load and use a pretrained model as follows:
 
 ```python
