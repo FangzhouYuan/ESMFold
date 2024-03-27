@@ -159,6 +159,12 @@ import torch
 model, alphabet = torch.hub.load("facebookresearch/esm:main", "esm2_t33_650M_UR50D")
 ```
 
+### Run (Our version)
+
+```commandline
+python scripts/fold.py -i LokiAndNola.fasta -o output
+```
+
 After pip install, you can load and use a pretrained model as follows:
 
 ```python
