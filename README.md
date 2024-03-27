@@ -167,6 +167,7 @@ interact -gpu
 ```
 
 ```commandline
+conda activate ./esmfold
 python scripts/fold.py -i LokiAndNola.fasta -o output
 ```
 
