@@ -162,6 +162,11 @@ model, alphabet = torch.hub.load("facebookresearch/esm:main", "esm2_t33_650M_UR5
 ### Run (Our version)
 
 ```commandline
+cd /ocean/projects/cis230061p/fyuan/capstone/ESMFold
+interact -gpu
+```
+
+```commandline
 python scripts/fold.py -i LokiAndNola.fasta -o output
 ```
 
